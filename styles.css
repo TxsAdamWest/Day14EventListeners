@@ -89,6 +89,10 @@ hr.q-divider{
 
 /*TASK 1*/
 
+#Task1Button {
+  margin-bottom: 30px;
+}
+
 .nav-menu {
   visibility: visible;
   opacity: 1;
@@ -119,7 +123,7 @@ hr.q-divider{
   text-align: center;
 }
 #add-guest input {
-  display: block;
+  display: inline-block;
   margin: 15px auto;
 }
 
@@ -138,7 +142,7 @@ hr.q-divider{
   text-align: left;
 }
 
-#add-guest .guest:nth-child(even) {
+.guest-list li:nth-child(even) {
   background: tomato;
 }
 
